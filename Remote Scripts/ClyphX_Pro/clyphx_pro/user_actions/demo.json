@@ -1,0 +1,106 @@
+{
+    "AxoInstruct":
+    {
+        "config":
+        {
+            "name":"AxoInstructV2 Fallback Config",
+            "date":"2022-11-28",
+            "venue":"Home",
+            "description":"This is a fallback JSON config in case the specified file could not be found.",
+            "channels":
+            {
+                "l":
+                {
+                    "category":"Lighting",
+                    "role":"Moving Lights",
+                    "name":"Meister Lampe",
+                    "background":"#0093AAFF",
+                    "text":"#FFFFFFFF"
+                },
+                
+                "m":
+                {
+                    "category":"Music",
+                    "role":"Synths/Ableton",
+                    "name":"Matthias",
+                    "background":"#93AA00FF",
+                    "text":"#FFFFFFFF"
+                },
+                
+                "v":
+                {
+                    "category":"Visuals",
+                    "role":"Resolume/Magic",
+                    "name":"Max Mustermann",
+                    "background":"#AA0093FF",
+                    "text":"#FFFFFFFF"
+                }
+            }
+        },
+        
+        "songs":
+        {
+            "dummy_1":
+            {
+                "name":"Dummy Song 1",
+                "tempo":"100bpm",
+                "key":"C",
+                "description":"I am a placeholder",
+                "instructions":
+                {
+                    "l":
+                    [
+                        "Lighting cue 11",
+                        "Lighting cue 12",
+                        "Lighting cue 13"
+                    ],
+                    
+                    "m":
+                    [
+                        "Music cue 11",
+                        "Music cue 12",
+                        "Music cue 13"
+                    ],
+            
+                    "v":
+                    [
+                        "Visuals cue 11",
+                        "Visuals cue 12",
+                        "Visuals cue 13"
+                    ]
+                }
+            },
+            
+            "dummy_2":
+            {
+                "name":"Dummy Song 2",
+                "tempo":"120bpm",
+                "key":"Em",
+                "description":"I am a placeholder",
+                "instructions":
+                {
+                    "l":
+                    [
+                        "Lighting cue 21",
+                        "Lighting cue 22",
+                        "Lighting cue 23"
+                    ],
+                    
+                    "m":
+                    [
+                        "Music cue 21",
+                        "Music cue 22",
+                        "Music cue 23"
+                    ],
+            
+                    "v":
+                    [
+                        "Visuals cue 21",
+                        "Visuals cue 22",
+                        "Visuals cue 23"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "AxoInstruct":
+    {
+        "config":
+        {
+            "name":"AxoInstruct V2 Test",
+            "date":"2022-11-27",
+            "venue":"Home",
+            "description":"Just a test configuration",
+            "channels":
+            {
+                "l":
+                {
+                    "category":"Lighting",
+                    "role":"Moving Lights",
+                    "name":"Meister Lampe",
+                    "background":"#0093AAFF",
+                    "text":"#FFFFFFFF"
+                },
+                
+                "m":
+                {
+                    "category":"Music",
+                    "role":"Synths/Ableton",
+                    "name":"Matthias",
+                    "background":"#93AA00FF",
+                    "text":"#FFFFFFFF"
+                },
+                
+                "v":
+                {
+                    "category":"Visuals",
+                    "role":"Resolume/Magic",
+                    "name":"Max Mustermann",
+                    "background":"#AA0093FF",
+                    "text":"#FFFFFFFF"
+                }
+            }
+        },
+        
+        "songs":
+        {
+            "demo_1":
+            {
+                "name":"Demo Song 1",
+                "tempo":"89bpm",
+                "key":"Eb",
+                "description":"Opener",
+                "instructions":
+                {
+                    "l":
+                    [
+                        "Page 11 Launch Sequencer",
+                        "Fader 6 up",
+                        "Next Song: Page 12 Antiport"
+                    ],
+                    
+                    "m":
+                    [
+                        "F (low) - Enc 1+3 0",
+                        "2 1/8 - Send A+C med",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "Break - Silence",
+                        "F/Ab/F/Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "F",
+                        "Break - F ... Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "F",
+                        "Outro - Silence / Bb/F Enc 1/2/3"
+                    ],
+            
+                    "v":
+                    [
+                        "Page 11 Launch Sequencer",
+                        "Fader 6 up",
+                        "Next Song: Page 12 Antiport"
+                    ]
+                }
+            },
+            
+            "demo_2":
+            {
+                "name":"Demo Song 2",
+                "tempo":"124bpm",
+                "key":"G",
+                "description":"Instrumental version",
+                "instructions":
+                {
+                    "l":
+                    [
+                        "UGFnZSAxMSBMYXVuY2ggU2VxdWVuY2Vy",
+                        "RmFkZXIgNiB1cA==",
+                        "UGFnZSAxMiBBbnRpcG9ydA=="
+                    ],
+                    
+                    "m":
+                    [
+                        "RiAobG93KSAtIEVuYyAxKzMgMDsgMiAxLzggLSBTZW5kIEErQyBtZWQ=",
+                        "QmI=",
+                        "Ri9BYi9GL0Vi",
+                        "QmI=",
+                        "F/Ab/F/Eb",
+                        "Break - Silence",
+                        "F/Ab/F/Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "F",
+                        "Break - F ... Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "Bb",
+                        "F/Ab/F/Eb",
+                        "F",
+                        "Outro - Silence / Bb/F Enc 1/2/3"
+                    ],
+            
+                    "v":
+                    [
+                        "UGFnZSAxMSBMYXVuY2ggU2VxdWVuY2Vy",
+                        "RmFkZXIgNiB1cA==",
+                        "UGFnZSAxMiBBbnRpcG9ydA=="
+                    ]
+                }
+            }
+        }
+    }
+}

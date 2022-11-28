@@ -2,6 +2,8 @@
 Flexible multi-user cue lists and stage instructions with Ableton Live, ClyphX Pro and TouchOSC Mk2. \
 It provides and extended feature set compared to the original version, can be easily configured via JSON files and makes use of TouchOSC MK2's scripting capabilities on a variety of platforms.
 
+![](images/TouchOSC_Template_v-0_9_0_alpha.png)
+
 # Setup and installation
 ## Downloads and required tools
 * Download or clone this repository
@@ -35,3 +37,10 @@ Copy this directory and its content to the `Ableton/User Library` directory in y
 Examples: ```c:\Users\YOURNAME\Documents\Ableton\User Library``` on Windows or ```/home/YOURNAME/Documents/Ableton/User Library``` on Mac.
 It contains the ClyphX Pro User Action script for AxoInstructV2 and a fallback JSON file.
 
+# Prepare your set configuration
+Screenshot from example JSON file
+![](images/JSON_Config_Example_01.png)
+
+# Setup your Ableton Live set and control your songs, cues and instructions
+Screenshot from Demo Live Set
+![](images/Ableton_Live_Demo_Set_01.png)
